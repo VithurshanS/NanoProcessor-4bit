@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr 27 00:16:37 2024
+# Process ID: 6292
+# Current directory: C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19972 C:\Users\vithurshan\Desktop\nanoprocess_sub\NPF\NPF\NPF.xpr
+# Log file: C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/vivado.log
+# Journal file: C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.xpr
+update_compile_order -fileset sources_1
+archive_project C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NanoProcessor_Group_24.xpr.zip -temp_dir C:/Users/vithurshan/Desktop -force -exclude_run_results -include_config_settings
+launch_simulation
+source TB_7Seg_With_Multi.tcl
+archive_project C:/Users/vithurshan/Desktop/nanoprocess_sub/NP_Group_24.xpr.zip -temp_dir C:/Users/vithurshan/Desktop/nanoprocess_sub -force -exclude_run_results -include_config_settings

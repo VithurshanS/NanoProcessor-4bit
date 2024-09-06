@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr 27 00:16:37 2024
+# Process ID: 6292
+# Current directory: C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19972 C:\Users\vithurshan\Desktop\nanoprocess_sub\NPF\NPF\NPF.xpr
+# Log file: C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/vivado.log
+# Journal file: C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/vithurshan/Downloads/NPF' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+archive_project C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NanoProcessor_Group_24.xpr.zip -temp_dir C:/Users/vithurshan/Desktop -force -exclude_run_results -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/vithurshan/Desktop' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NanoProcessor_Group_24.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_7Seg_With_Multi' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_7Seg_With_Multi_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/Add_Sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add_Sub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/Instruction_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/Desktop/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/new/Multiplier_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/Desktop/NanoProcessor_7Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor_7Seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/RCA3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/mux2way3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux2way3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux2way4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux2way4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux8way4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux8way4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/nextter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rom_Incrementor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/new/prodecode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity program_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/program_counter_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity program_counter_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/programrom/program_rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity program_rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sim_1/new/TB_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_7Seg_With_Multi
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 38ca448237ac4050915bdaae9b80a458 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_7Seg_With_Multi_behav xil_defaultlib.TB_7Seg_With_Multi -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.program_counter_3bit [program_counter_3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA3 [rca3_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux2way3bit [mux2way3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Rom_Incrementor [rom_incrementor_default]
+Compiling architecture behavioral of entity xil_defaultlib.program_rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.program_decoder [program_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux2way4bit [mux2way4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux8way4bit [mux8way4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Add_Sub [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_2 [multiplier_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor_7Seg [nanoprocessor_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_7seg_with_multi
+Built simulation snapshot TB_7Seg_With_Multi_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.sim/sim_1/behav/xsim/xsim.dir/TB_7Seg_With_Multi_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 27 00:20:11 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_7Seg_With_Multi_behav -key {Behavioral:sim_1:Functional:TB_7Seg_With_Multi} -tclbatch {TB_7Seg_With_Multi.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_7Seg_With_Multi.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_7Seg_With_Multi_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 970.266 ; gain = 4.059
+archive_project C:/Users/vithurshan/Desktop/nanoprocess_sub/NP_Group_24.xpr.zip -temp_dir C:/Users/vithurshan/Desktop/nanoprocess_sub -force -exclude_run_results -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/vithurshan/Desktop/nanoprocess_sub' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...

@@ -1,0 +1,46 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/Add_Sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add_Sub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/Instruction_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/Desktop/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/new/Multiplier_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/Desktop/NanoProcessor_7Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor_7Seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/RCA3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/mux2way3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux2way3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux2way4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux2way4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux8way4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux8way4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/nextter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rom_Incrementor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/new/prodecode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity program_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/program_counter_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity program_counter_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/programrom/program_rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity program_rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vithurshan/Desktop/nanoprocess_sub/NPF/NPF/NPF.srcs/sim_1/new/TB_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_7Seg_With_Multi

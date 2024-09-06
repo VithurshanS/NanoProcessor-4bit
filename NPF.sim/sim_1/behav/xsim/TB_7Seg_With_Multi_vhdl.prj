@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NPF.srcs/sources_1/new/ALU.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/Add_Sub.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/D_FF.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Decoder_2_to_4.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/Decoder_3_to_8.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/FA.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/addsub/HA.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/Instruction_decoder.vhd" \
+"../../../../NPF.srcs/sources_1/imports/Desktop/LUT_16_7.vhd" \
+"../../../../NPF.srcs/sources_1/imports/new/Multiplier_2.vhd" \
+"../../../../NPF.srcs/sources_1/imports/Desktop/NanoProcessor_7Seg.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/RCA3.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Reg.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/registerbank/Reg_Bank.vhd" \
+"../../../../NPF.srcs/sources_1/new/Slow_Clk.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/mux2way3bit.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux2way4bit.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux8way4bit.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/nextter.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/new/prodecode.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/nexter/program counter/program_counter_3bit.vhd" \
+"../../../../NPF.srcs/sources_1/imports/vithurshan/Downloads/programdecoder.xpr/programdecoder/programdecoder.srcs/sources_1/imports/np/prodecode/programrom/program_rom.vhd" \
+"../../../../NPF.srcs/sim_1/new/TB_7seg.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../7_seg_With_Multi.srcs/sources_1/imports/vithurshan/Desktop/nanoprocessor/np/ALU/muxses/mux2way4bit.vhd" \
+"../../../../7_seg_With_Multi.srcs/sim_1/new/TB_loadselector.vhd" \
+
+# Do not sort compile order
+nosort
